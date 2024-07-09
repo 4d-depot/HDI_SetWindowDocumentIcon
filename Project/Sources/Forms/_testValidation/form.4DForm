@@ -65,7 +65,12 @@
 						"file_emptyIcon",
 						"file_icon",
 						"icon_incorrectFile",
-						"incorrectFile"
+						"incorrectFile",
+						"folder",
+						"folder_emptyIcon",
+						"folder_icon",
+						"icon_incorrectFolder",
+						"incorrectFolder"
 					],
 					"dataSource": "Form:C1466.text"
 				}

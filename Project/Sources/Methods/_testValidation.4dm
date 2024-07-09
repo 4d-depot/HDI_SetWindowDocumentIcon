@@ -9,6 +9,10 @@ var $file; $incorrectFile : 4D:C1709.File
 $file:=File:C1566("/RESOURCES/files/user.txt")
 $incorrectFile:=File:C1566("/RESOURCES/files/user2.txt")
 
+var $folder; $incorrectFolder : 4D:C1709.Folder
+$folder:=Folder:C1567("/RESOURCES/files")
+$incorrectFolder:=Folder:C1567("/RESOURCES/files22")
+
 Case of 
 	: ($type="icon")
 		SET WINDOW DOCUMENT ICON:C1840($hWnd; $image)
@@ -33,6 +37,21 @@ Case of
 		
 	: ($type="icon_incorrectFile")
 		SET WINDOW DOCUMENT ICON:C1840($hWnd; $image; $incorrectFile)
+		
+	: ($type="folder")
+		SET WINDOW DOCUMENT ICON:C1840($hWnd; $folder)
+		
+	: ($type="folder_emptyIcon")
+		SET WINDOW DOCUMENT ICON:C1840($hWnd; $emptyImage; $folder)
+		
+	: ($type="folder_icon")
+		SET WINDOW DOCUMENT ICON:C1840($hWnd; $image; $folder)
+		
+	: ($type="incorrectFolder")
+		SET WINDOW DOCUMENT ICON:C1840($hWnd; $incorrectFolder)
+		
+	: ($type="icon_incorrectFolder")
+		SET WINDOW DOCUMENT ICON:C1840($hWnd; $image; $incorrectFolder)
 		
 End case 
 

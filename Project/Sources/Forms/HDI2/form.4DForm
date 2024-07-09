@@ -90,7 +90,7 @@
 					"type": "input",
 					"top": 80,
 					"left": 80,
-					"width": 651,
+					"width": 789,
 					"height": 200,
 					"sizingX": "grow",
 					"sizingY": "grow",
@@ -116,6 +116,15 @@
 					"height": 265,
 					"picture": "/RESOURCES/Images/windows.png",
 					"pictureFormat": "scaled"
+				},
+				"Static Picture1": {
+					"type": "picture",
+					"top": 295,
+					"left": 500,
+					"width": 400,
+					"height": 262,
+					"picture": "Images/mac.png",
+					"pictureFormat": "scaled"
 				}
 			}
 		},
@@ -126,7 +135,7 @@
 					"top": 80,
 					"left": 40,
 					"width": 420,
-					"height": 160,
+					"height": 434,
 					"sizingY": "grow",
 					"dataSource": "Infos[1].Description",
 					"focusable": false,
@@ -251,7 +260,7 @@
 						{
 							"header": {
 								"name": "Entête4",
-								"text": "Window url"
+								"text": "Window document"
 							},
 							"name": "Colonne4",
 							"dataSource": "This:C1470.file",
@@ -326,6 +335,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 187,
+	"geometryStamp": 204,
 	"windowTitle": "HDI Set Window Icon"
 }
