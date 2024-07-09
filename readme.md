@@ -1,4 +1,4 @@
-# HDI_Template_20
+# HDI_SetWindowDocumentIcon
 
 Set a icon and/or a document to the window title bar (4D 20 R7)
 
