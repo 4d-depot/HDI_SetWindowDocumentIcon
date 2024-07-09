@@ -1,6 +1,6 @@
 # HDI_Template_20
 
-Description (4D 20 Rx)
+Set a icon and/or a document to the window title bar (4D 20 R7)
 
 Find more information on the [blog post](https://blog.4d.com/).
 
